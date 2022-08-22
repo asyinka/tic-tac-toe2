@@ -1,0 +1,23 @@
+.cell-container {
+    width: 250px;
+    height: auto;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: auto;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 4rem;
+    text-align: center;
+    
+}
+
+.game-container {
+    text-align: center;
+}
